@@ -34,7 +34,7 @@ body::-webkit-scrollbar{
     margin: 90px;
     margin-bottom: 0;
     animation: typing;
-    animation-duration: 1.5s;
+    animation-duration: 5s;
     animation-timing-function: steps(30, end);
     animation-fill-mode: forwards;
     -webkit-text-fill-color:red;
