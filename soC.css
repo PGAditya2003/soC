@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+@font-face {
+    font-family: Robot;
+    src: url(RobotoMono-VariableFont_wght.ttf);
+}
+.container{
+    display: inline-block;
+    font-size: 900;
+    font-family: Robot;
+    font-size: 24px;
+    text-shadow: -1px 1px 0px #022218,
+    1px 1px 0 #054120 ;
+    -webkit-text-fill-color: rgb(7, 183, 34);
+
+
+    content: "";
+  background: #050006;
+  display: inline-block;
+
+  /* animation: cursor-blink 1.5s steps(2) infinite; */
+  }
+  @keyframes cursor-blink {
+    0% {
+      opacity: 0 ;
+    }
+  }
+  .mission{
+    margin: 90px;
+    margin-bottom: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+    -webkit-text-fill-color:red;
+  }
+  
+  .typed {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+  }
+    
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  .last{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    -webkit-text-fill-color: black;
+  }
+  /* first4: 7777 */
