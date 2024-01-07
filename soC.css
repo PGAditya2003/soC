@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    max-width: 100%;
 }
 
 body::-webkit-scrollbar{
@@ -10,18 +11,16 @@ body::-webkit-scrollbar{
     src: url(RobotoMono-VariableFont_wght.ttf);
 }
 .container{
-    display: inline-block;
-    font-size: 900;
+    display: flex;
+    
+   
     font-family: Robot;
     font-size: 24px;
-    text-shadow: -1px 1px 0px #022218,
-    1px 1px 0 #054120 ;
+    -webkit-text-stroke: 0px white;
     -webkit-text-fill-color: rgb(7, 183, 34);
-
 
     content: "";
   background: #050006;
-  display: inline-block;
 
   /* animation: cursor-blink 1.5s steps(2) infinite; */
   }
